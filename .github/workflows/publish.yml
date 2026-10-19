@@ -1,0 +1,113 @@
+# Reusable workflow: publish one app's release to this repository.
+#
+# Called from an app's own (private) repo after it has built its files:
+#
+#   publish:
+#     needs: build
+#     uses: entoothiast/downloads/.github/workflows/publish.yml@main
+#     with:
+#       app: watttest                # folder + tag prefix (lowercase, no spaces)
+#       title: WattTest              # shown on the release
+#       version: 0.2.0               # without the "v"
+#       notes: ${{ needs.build.outputs.notes }}
+#       artifacts: WattTest-*        # actions/download-artifact pattern from the caller's run
+#       files: |                     # file names inside those artifacts to attach
+#         WattTest-macos.zip
+#         WattTest-windows.zip
+#     secrets:
+#       token: ${{ secrets.RELEASES_TOKEN }}
+#
+# Result: a release tagged "<app>-v<version>" here, and <app>/latest.json
+# updated on main. Apps read
+#   https://raw.githubusercontent.com/entoothiast/downloads/main/<app>/latest.json
+# to decide whether to remind users about an update. GitHub's "latest release"
+# is repo-wide, so it is deliberately not used: it would point at whichever app
+# released last.
+name: publish
+
+on:
+  workflow_call:
+    inputs:
+      app:
+        required: true
+        type: string
+      title:
+        required: true
+        type: string
+      version:
+        required: true
+        type: string
+      notes:
+        required: false
+        type: string
+        default: ""
+      install_notes:
+        description: Markdown appended under "Download" on the release page
+        required: false
+        type: string
+        default: ""
+      artifacts:
+        required: true
+        type: string
+      files:
+        required: true
+        type: string
+    secrets:
+      token:
+        description: Token with Contents read/write on entoothiast/downloads
+        required: true
+
+env:
+  DOWNLOADS_REPO: entoothiast/downloads
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    # One publish at a time across all apps, so latest.json commits never race.
+    concurrency:
+      group: downloads-publish
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: ${{ env.DOWNLOADS_REPO }}
+          ref: main
+          token: ${{ secrets.token }}
+          path: downloads
+
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: ${{ inputs.artifacts }}
+          path: dist
+          merge-multiple: true
+
+      - name: Prepare release
+        id: prep
+        env:
+          APP: ${{ inputs.app }}
+          VERSION: ${{ inputs.version }}
+          NOTES: ${{ inputs.notes }}
+          INSTALL: ${{ inputs.install_notes }}
+          FILES: ${{ inputs.files }}
+        run: downloads/scripts/prepare.sh
+
+      - name: Create the release
+        uses: softprops/action-gh-release@v2
+        with:
+          repository: ${{ env.DOWNLOADS_REPO }}
+          token: ${{ secrets.token }}
+          tag_name: ${{ steps.prep.outputs.tag }}
+          target_commitish: main
+          name: ${{ inputs.title }} ${{ inputs.version }}
+          body_path: body.md
+          files: ${{ steps.prep.outputs.files }}
+          make_latest: "false"
+
+      # After the release, so an app is only told about files that exist.
+      - name: Update ${{ inputs.app }}/latest.json
+        env:
+          APP: ${{ inputs.app }}
+          VERSION: ${{ inputs.version }}
+          NOTES: ${{ inputs.notes }}
+          TAG: ${{ steps.prep.outputs.tag }}
+        run: downloads/scripts/write-latest.sh
