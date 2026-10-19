@@ -19,13 +19,16 @@ the reusable workflow [`.github/workflows/publish.yml`](.github/workflows/publis
 creates a release here tagged `<app>-v<version>` and updates `<app>/latest.json`. Usage is
 documented at the top of that file.
 
-**Token:** callers pass an organisation secret `RELEASES_TOKEN`: a fine-grained token with
-*Contents: Read and write* on this repository only.
+**Token:** callers pass a secret named `RELEASES_TOKEN`: a fine-grained token with
+*Contents: Read and write* on this repository only. Store it as a **repository secret in each
+app's repo** (Settings → Secrets and variables → Actions). Organisation secrets would avoid the
+repetition, but on GitHub Free they are not available to private repositories. When the token is
+renewed, update it in every app repo.
 
 **Adding an app:**
 1. In the app's CI, add a job that calls `entoothiast/downloads/.github/workflows/publish.yml@main`
    with its `app` name, version, notes, artifact pattern and file names.
-2. Give the app's repository access to the `RELEASES_TOKEN` organisation secret.
+2. Add the `RELEASES_TOKEN` repository secret to the app's repo (same token as the other apps).
 3. Point the app's update check at
    `https://raw.githubusercontent.com/entoothiast/downloads/main/<app>/latest.json`
    and add a row to the table above.
