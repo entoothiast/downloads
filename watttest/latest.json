@@ -1,0 +1,10 @@
+{
+  "version": "0.2.0",
+  "url": "https://github.com/entoothiast/downloads/releases/tag/watttest-v0.2.0",
+  "notes": "WattTest now tells you when a newer version is available, and downloads move to github.com/entoothiast/downloads.\n\nStill not validated on the bike: keep the legacy Python app as the fallback until the in-person checklist has passed.",
+  "published": "2026-10-19T15:00:01Z",
+  "files": {
+    "WattTest-macos.zip": "https://github.com/entoothiast/downloads/releases/download/watttest-v0.2.0/WattTest-macos.zip",
+    "WattTest-windows.zip": "https://github.com/entoothiast/downloads/releases/download/watttest-v0.2.0/WattTest-windows.zip"
+  }
+}
