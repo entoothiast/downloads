@@ -1,10 +1,10 @@
 {
-  "version": "0.2.0",
-  "url": "https://github.com/entoothiast/downloads/releases/tag/watttest-v0.2.0",
-  "notes": "WattTest now tells you when a newer version is available, and downloads move to github.com/entoothiast/downloads.\n\nStill not validated on the bike: keep the legacy Python app as the fallback until the in-person checklist has passed.",
-  "published": "2026-10-19T15:00:01Z",
+  "version": "0.2.1",
+  "url": "https://github.com/entoothiast/downloads/releases/tag/watttest-v0.2.1",
+  "notes": "Salivette swap timing: the countdown card shows when to take the salivette out and put the next one in around each stage change; offset selectable (0.5, 1 or 1.5 min)",
+  "published": "2026-10-20T07:07:47Z",
   "files": {
-    "WattTest-macos.zip": "https://github.com/entoothiast/downloads/releases/download/watttest-v0.2.0/WattTest-macos.zip",
-    "WattTest-windows.zip": "https://github.com/entoothiast/downloads/releases/download/watttest-v0.2.0/WattTest-windows.zip"
+    "WattTest-macos.zip": "https://github.com/entoothiast/downloads/releases/download/watttest-v0.2.1/WattTest-macos.zip",
+    "WattTest-windows.zip": "https://github.com/entoothiast/downloads/releases/download/watttest-v0.2.1/WattTest-windows.zip"
   }
 }
