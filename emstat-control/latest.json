@@ -1,0 +1,10 @@
+{
+  "version": "0.1.0",
+  "url": "https://github.com/entoothiast/downloads/releases/tag/emstat-control-v0.1.0",
+  "notes": "First release of EmStat Control: CA and CV on the EmStat3 with live markers, session details as in LacTracker, and Export to _data. The window now tells you when a newer version is available.",
+  "published": "2026-10-21T12:05:17Z",
+  "files": {
+    "EmStatControl-macos.zip": "https://github.com/entoothiast/downloads/releases/download/emstat-control-v0.1.0/EmStatControl-macos.zip",
+    "EmStatControl-windows.zip": "https://github.com/entoothiast/downloads/releases/download/emstat-control-v0.1.0/EmStatControl-windows.zip"
+  }
+}
