@@ -8,6 +8,7 @@ the file for your computer.
 | **WattTest** | Lactate threshold test monitor for the Wattbike AtomX (macOS, Windows) | [Releases](https://github.com/entoothiast/downloads/releases?q=watttest&expanded=true) |
 | **LacTracker** | Records iTooth lactate-sensor sessions over Bluetooth and exports them to `_data` (macOS, Windows) | [Releases](https://github.com/entoothiast/downloads/releases?q=lactracker&expanded=true) |
 | **EmStat Control** | Runs CA / CV on the PalmSens EmStat3 with live markers and exports them to `_data` (macOS, Windows) | [Releases](https://github.com/entoothiast/downloads/releases?q=emstat-control&expanded=true) |
+| **iTOOTH Data Apps** | Database Previewer, Plotter, Import Data and Lactate Threshold for iTooth session data (macOS, Windows) | [Releases](https://github.com/entoothiast/downloads/releases?q=itooth-data-apps&expanded=true) |
 
 Each app's current version is in `<app>/latest.json`; the apps read it to remind you when an
 update is available.
