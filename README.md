@@ -7,7 +7,7 @@ the file for your computer.
 |---|---|---|
 | **WattTest** | Lactate threshold test monitor for the Wattbike AtomX (macOS, Windows) | [Releases](https://github.com/entoothiast/downloads/releases?q=watttest&expanded=true) |
 | **LacTracker** | Records iTooth lactate-sensor sessions over Bluetooth and exports them to `_data` (macOS, Windows) | [Releases](https://github.com/entoothiast/downloads/releases?q=lactracker&expanded=true) |
-| **EmStat Control** | Runs CA / CV on the PalmSens EmStat3 with live markers and exports them to `_data` (macOS, Windows) | [Releases](https://github.com/entoothiast/downloads/releases?q=emstat-control&expanded=true) |
+| **LacBench** | The bench apps in one download: **EmStat Control** (CA / CV on the PalmSens EmStat3 with live markers, export to `_data`) and **BathBot** (a Dobot MG400 moves a sensor through a dry bath during an EmStat CA recording; preview). Formerly EmStat Control on its own (macOS, Windows) | [Releases](https://github.com/entoothiast/downloads/releases?q=lacbench&expanded=true) |
 | **iTOOTH Data Apps** | Database Previewer, Plotter, Import Data and Lactate Threshold for iTooth session data (macOS, Windows) | [Releases](https://github.com/entoothiast/downloads/releases?q=itooth-data-apps&expanded=true) |
 
 Each app's current version is in `<app>/latest.json`; the apps read it to remind you when an
@@ -36,4 +36,9 @@ renewed, update it in every app repo.
    `https://raw.githubusercontent.com/entoothiast/downloads/main/<app>/latest.json`
    and add a row to the table above.
 
-Don't protect `main` here: the workflow commits `latest.json` to it.
+**Without CI:** LacBench is built and published from a Mac (`scripts/publish.sh` in its repo),
+which makes the same `<app>-v<version>` release and `<app>/latest.json` with the maintainer's own
+`gh` login instead of a token. Until EmStat Control 0.1.0 is gone, LacBench releases are also
+published under `emstat-control`, so that version's update reminder points to LacBench.
+
+Don't protect `main` here: publishing commits `latest.json` to it.
