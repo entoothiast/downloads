@@ -1,10 +1,10 @@
 {
-  "version": "0.1.0",
-  "url": "https://github.com/entoothiast/downloads/releases/tag/lactracker-v0.1.0",
-  "notes": "First native release of LacTracker for macOS and Windows: one program with one main screen. It replaces the web app; no Python, browser or local server needed.\n\n- Setup, device, live chart, markers and review all on one screen\n- Measurement settings for firmware v0.3.0+, with automatic reconnect after the device restarts\n- Supports firmware v0.4 (ring log)\n- Sessions saved as sensor-json files; Export to _data as before\n- Reminds you when a newer version is published",
-  "published": "2026-10-19T17:09:06Z",
+  "version": "0.2.0",
+  "url": "https://github.com/entoothiast/downloads/releases/tag/lactracker-v0.2.0",
+  "notes": "Add markers by clicking the chart; rename sessions; Dry marker preset; scroll wheel zooms time; Windows app no longer opens a console window",
+  "published": "2026-10-28T08:45:00Z",
   "files": {
-    "LacTracker-macos.zip": "https://github.com/entoothiast/downloads/releases/download/lactracker-v0.1.0/LacTracker-macos.zip",
-    "LacTracker-windows.zip": "https://github.com/entoothiast/downloads/releases/download/lactracker-v0.1.0/LacTracker-windows.zip"
+    "LacTracker-macos.zip": "https://github.com/entoothiast/downloads/releases/download/lactracker-v0.2.0/LacTracker-macos.zip",
+    "LacTracker-windows.zip": "https://github.com/entoothiast/downloads/releases/download/lactracker-v0.2.0/LacTracker-windows.zip"
   }
 }
