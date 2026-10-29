@@ -1,10 +1,10 @@
 {
-  "version": "0.2.0",
-  "url": "https://github.com/entoothiast/downloads/releases/tag/emstat-control-v0.2.0",
-  "notes": "EmStat Control is now part of LacBench, with BathBot. LacBench 0.2.0: EmStat Control and BathBot in one download.\n- EmStat Control: the same app, now with a red strip while recording, quieter marker lines, and the update reminder covering the whole bundle.\n- Windows: the EmStat is found as PSTrace finds it, also when the driver gives it no COM port (listed as usb:<serial>). The apps no longer crash on start with some Intel graphics drivers. The files are EmStat Control.exe and BathBot.exe.\n- New: BathBot (preview, not yet tried on the arm). A Dobot MG400 moves one sensor through MDB100 dry-bath wells during one EmStat CA recording. Build a program from wells, loops, waits and pauses; markers are set at the bottom of each well and as the sensor leaves it.",
-  "published": "2026-10-28T14:57:58Z",
+  "version": "0.3.0",
+  "url": "https://github.com/entoothiast/downloads/releases/tag/emstat-control-v0.3.0",
+  "notes": "EmStat Control is now part of LacBench, with BathBot and LacTracker. LacTracker joins LacBench, BathBot can record with an iTooth, and every app has a light mode.\n\n- LacTracker is now part of LacBench: same download, same version, and it reminds you of LacBench updates. Your sessions and settings stay where they were.\n- BathBot: choose EmStat3 or iTooth next to the arm. With an iTooth, the run is saved as a LacTracker session (it shows up in LacTracker) and exported like one. Set the iTooth's measurement settings in LacTracker first.\n- Light mode: a System / Light / Dark switch in EmStat Control, BathBot and LacTracker.\n- Copy and paste with the system clipboard is turned on in every window.\n- LacTracker's icon is now LacBench green.",
+  "published": "2026-10-29T09:51:06Z",
   "files": {
-    "LacBench-macos.zip": "https://github.com/entoothiast/downloads/releases/download/emstat-control-v0.2.0/LacBench-macos.zip",
-    "LacBench-windows.zip": "https://github.com/entoothiast/downloads/releases/download/emstat-control-v0.2.0/LacBench-windows.zip"
+    "LacBench-macos.zip": "https://github.com/entoothiast/downloads/releases/download/emstat-control-v0.3.0/LacBench-macos.zip",
+    "LacBench-windows.zip": "https://github.com/entoothiast/downloads/releases/download/emstat-control-v0.3.0/LacBench-windows.zip"
   }
 }
