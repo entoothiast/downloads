@@ -1,10 +1,10 @@
 {
-  "version": "0.2.2",
-  "url": "https://github.com/entoothiast/downloads/releases/tag/watttest-v0.2.2",
-  "notes": "Uses the shared iTOOTH design for corner radii and spacing; WattTest colours unchanged.",
-  "published": "2026-10-26T17:15:30Z",
+  "version": "0.2.3",
+  "url": "https://github.com/entoothiast/downloads/releases/tag/watttest-v0.2.3",
+  "notes": "System, Light and Dark appearance switch (default follows the OS); app icon",
+  "published": "2026-10-29T09:29:10Z",
   "files": {
-    "WattTest-macos.zip": "https://github.com/entoothiast/downloads/releases/download/watttest-v0.2.2/WattTest-macos.zip",
-    "WattTest-windows.zip": "https://github.com/entoothiast/downloads/releases/download/watttest-v0.2.2/WattTest-windows.zip"
+    "WattTest-macos.zip": "https://github.com/entoothiast/downloads/releases/download/watttest-v0.2.3/WattTest-macos.zip",
+    "WattTest-windows.zip": "https://github.com/entoothiast/downloads/releases/download/watttest-v0.2.3/WattTest-windows.zip"
   }
 }
