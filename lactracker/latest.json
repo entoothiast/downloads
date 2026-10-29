@@ -1,10 +1,10 @@
 {
-  "version": "0.2.0",
-  "url": "https://github.com/entoothiast/downloads/releases/tag/lactracker-v0.2.0",
-  "notes": "Add markers by clicking the chart; rename sessions; Dry marker preset; scroll wheel zooms time; Windows app no longer opens a console window",
-  "published": "2026-10-28T08:45:00Z",
+  "version": "0.2.1",
+  "url": "https://github.com/entoothiast/downloads/releases/tag/lactracker-v0.2.1",
+  "notes": "System, Light and Dark appearance switch in the header (default follows the OS); colours from the shared iTOOTH design; app icon",
+  "published": "2026-10-29T09:28:21Z",
   "files": {
-    "LacTracker-macos.zip": "https://github.com/entoothiast/downloads/releases/download/lactracker-v0.2.0/LacTracker-macos.zip",
-    "LacTracker-windows.zip": "https://github.com/entoothiast/downloads/releases/download/lactracker-v0.2.0/LacTracker-windows.zip"
+    "LacTracker-macos.zip": "https://github.com/entoothiast/downloads/releases/download/lactracker-v0.2.1/LacTracker-macos.zip",
+    "LacTracker-windows.zip": "https://github.com/entoothiast/downloads/releases/download/lactracker-v0.2.1/LacTracker-windows.zip"
   }
 }
