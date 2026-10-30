@@ -1,17 +1,8 @@
 # Entoothiast downloads
 
-Ready-to-run builds of Entoothiast apps. Pick your app below, open its latest release, and download
-the file for your computer.
-
-| App | What it is | Downloads |
-|---|---|---|
-| **WattTest** | Lactate threshold test monitor for the Wattbike AtomX (macOS, Windows) | [Releases](https://github.com/entoothiast/downloads/releases?q=watttest&expanded=true) |
-| **LacTracker** | Records iTooth lactate-sensor sessions over Bluetooth and exports them to `_data` (macOS, Windows) | [Releases](https://github.com/entoothiast/downloads/releases?q=lactracker&expanded=true) |
-| **LacBench** | The bench apps in one download: **EmStat Control** (CA / CV on the PalmSens EmStat3 with live markers, export to `_data`) and **BathBot** (a Dobot MG400 moves a sensor through a dry bath during an EmStat CA recording; preview). Formerly EmStat Control on its own (macOS, Windows) | [Releases](https://github.com/entoothiast/downloads/releases?q=lacbench&expanded=true) |
-| **iTOOTH Data Apps** | Database Previewer, Plotter, Import Data and Lactate Threshold for iTooth session data (macOS, Windows) | [Releases](https://github.com/entoothiast/downloads/releases?q=itooth-data-apps&expanded=true) |
-
-Each app's current version is in `<app>/latest.json`; the apps read it to remind you when an
-update is available.
+Internal update files for Entoothiast apps. This repository is public only so the apps can check
+for updates without a login; it is not a download page and is not meant for use outside
+Entoothiast.
 
 ---
 
@@ -33,8 +24,8 @@ renewed, update it in every app repo.
    with its `app` name, version, notes, artifact pattern and file names.
 2. Add the `RELEASES_TOKEN` repository secret to the app's repo (same token as the other apps).
 3. Point the app's update check at
-   `https://raw.githubusercontent.com/entoothiast/downloads/main/<app>/latest.json`
-   and add a row to the table above.
+   `https://raw.githubusercontent.com/entoothiast/downloads/main/<app>/latest.json`.
+   Link users to the releases from the app's private repo or internal docs, not from here.
 
 **Without CI:** LacBench is built and published from a Mac (`scripts/publish.sh` in its repo),
 which makes the same `<app>-v<version>` release and `<app>/latest.json` with the maintainer's own
