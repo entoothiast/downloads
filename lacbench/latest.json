@@ -1,10 +1,10 @@
 {
-  "version": "0.3.0",
-  "url": "https://github.com/entoothiast/downloads/releases/tag/lacbench-v0.3.0",
-  "notes": "LacTracker joins LacBench, BathBot can record with an iTooth, and every app has a light mode.\n\n- LacTracker is now part of LacBench: same download, same version, and it reminds you of LacBench updates. Your sessions and settings stay where they were.\n- BathBot: choose EmStat3 or iTooth next to the arm. With an iTooth, the run is saved as a LacTracker session (it shows up in LacTracker) and exported like one. Set the iTooth's measurement settings in LacTracker first.\n- Light mode: a System / Light / Dark switch in EmStat Control, BathBot and LacTracker.\n- Copy and paste with the system clipboard is turned on in every window.\n- LacTracker's icon is now LacBench green.",
-  "published": "2026-10-29T09:50:33Z",
+  "version": "0.4.0",
+  "url": "https://github.com/entoothiast/downloads/releases/tag/lacbench-v0.4.0",
+  "notes": "Batches as production writes them, sensor design, and exports only into _data.\n\n- Batch is now text, as on the batch and in the manufacturing database: 42, S1, G2, Medistri_prep, and 0 for bare electrodes.\n- New Design (e.g. XIAB, DIRS) and Surface (painted / unpainted) fields in LacTracker and EmStat Control. Batch 0 needs the design.\n- New \"Sensor not identified\" checkbox: when nobody knows which sensor was used, tick it instead of typing a guess. Batch and sensor are required otherwise.\n- Export goes only into a folder called _data; any other folder is refused (LacTracker used to warn only).\n- Files follow sensor-json 2.0 and sensor-csv 1.0.",
+  "published": "2026-10-30T12:20:51Z",
   "files": {
-    "LacBench-macos.zip": "https://github.com/entoothiast/downloads/releases/download/lacbench-v0.3.0/LacBench-macos.zip",
-    "LacBench-windows.zip": "https://github.com/entoothiast/downloads/releases/download/lacbench-v0.3.0/LacBench-windows.zip"
+    "LacBench-macos.zip": "https://github.com/entoothiast/downloads/releases/download/lacbench-v0.4.0/LacBench-macos.zip",
+    "LacBench-windows.zip": "https://github.com/entoothiast/downloads/releases/download/lacbench-v0.4.0/LacBench-windows.zip"
   }
 }
