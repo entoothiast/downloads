@@ -1,10 +1,10 @@
 {
-  "version": "0.2.0",
-  "url": "https://github.com/entoothiast/downloads/releases/tag/itooth-data-apps-v0.2.0",
-  "notes": "Manufacturing app now included; System/Light/Dark theme switch; Cmd/Ctrl +/- to zoom text (remembered); importer dialogs larger and resizable",
-  "published": "2026-10-29T09:21:34Z",
+  "version": "0.3.0",
+  "url": "https://github.com/entoothiast/downloads/releases/tag/itooth-data-apps-v0.3.0",
+  "notes": "Bare-electrode sessions (batch 0 with a design) get a sensor identity; sensor ids use the manufacturing database's current form (PE_XIAB75_S1); EmStat .metadata batch, sensor, design and stage are read; tech_mfg_stage is written; sensor dialogs gain a design field; text batches and sensor-json 2.0",
+  "published": "2026-10-30T12:29:01Z",
   "files": {
-    "itooth-apps-macos.zip": "https://github.com/entoothiast/downloads/releases/download/itooth-data-apps-v0.2.0/itooth-apps-macos.zip",
-    "itooth-apps-windows.zip": "https://github.com/entoothiast/downloads/releases/download/itooth-data-apps-v0.2.0/itooth-apps-windows.zip"
+    "itooth-apps-macos.zip": "https://github.com/entoothiast/downloads/releases/download/itooth-data-apps-v0.3.0/itooth-apps-macos.zip",
+    "itooth-apps-windows.zip": "https://github.com/entoothiast/downloads/releases/download/itooth-data-apps-v0.3.0/itooth-apps-windows.zip"
   }
 }
