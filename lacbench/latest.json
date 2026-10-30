@@ -1,10 +1,10 @@
 {
-  "version": "0.4.0",
-  "url": "https://github.com/entoothiast/downloads/releases/tag/lacbench-v0.4.0",
-  "notes": "Batches as production writes them, sensor design, and exports only into _data.\n\n- Batch is now text, as on the batch and in the manufacturing database: 42, S1, G2, Medistri_prep, and 0 for bare electrodes.\n- New Design (e.g. XIAB, DIRS) and Surface (painted / unpainted) fields in LacTracker and EmStat Control. Batch 0 needs the design.\n- New \"Sensor not identified\" checkbox: when nobody knows which sensor was used, tick it instead of typing a guess. Batch and sensor are required otherwise.\n- Export goes only into a folder called _data; any other folder is refused (LacTracker used to warn only).\n- Files follow sensor-json 2.0 and sensor-csv 1.0.",
-  "published": "2026-10-30T12:20:51Z",
+  "version": "0.4.1",
+  "url": "https://github.com/entoothiast/downloads/releases/tag/lacbench-v0.4.1",
+  "notes": "LacTracker: markers anywhere on the chart, zoom each axis on its own, and fixes for Windows.\n\n- Click the chart to add a marker at that moment, while recording, after Stop, and when reviewing a saved session.\n- Shift + scroll wheel zooms the value axis; the scroll wheel (or Ctrl + wheel) zooms time. The I_SENSE axis fits what is on screen.\n- Marker keys 1–9 and 0 work on Windows (they stopped after clicking a button), also from the numpad.\n- The memory reading updates after a purge.\n- On small screens the window scrolls, so nothing at the bottom is out of reach; long dialogs scroll too.\n- Wider list of set markers beside the chart.",
+  "published": "2026-10-30T14:49:57Z",
   "files": {
-    "LacBench-macos.zip": "https://github.com/entoothiast/downloads/releases/download/lacbench-v0.4.0/LacBench-macos.zip",
-    "LacBench-windows.zip": "https://github.com/entoothiast/downloads/releases/download/lacbench-v0.4.0/LacBench-windows.zip"
+    "LacBench-macos.zip": "https://github.com/entoothiast/downloads/releases/download/lacbench-v0.4.1/LacBench-macos.zip",
+    "LacBench-windows.zip": "https://github.com/entoothiast/downloads/releases/download/lacbench-v0.4.1/LacBench-windows.zip"
   }
 }
