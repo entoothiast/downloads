@@ -1,10 +1,10 @@
 {
-  "version": "0.3.0",
-  "url": "https://github.com/entoothiast/downloads/releases/tag/itooth-data-apps-v0.3.0",
-  "notes": "Bare-electrode sessions (batch 0 with a design) get a sensor identity; sensor ids use the manufacturing database's current form (PE_XIAB75_S1); EmStat .metadata batch, sensor, design and stage are read; tech_mfg_stage is written; sensor dialogs gain a design field; text batches and sensor-json 2.0",
-  "published": "2026-10-30T12:29:01Z",
+  "version": "0.4.0",
+  "url": "https://github.com/entoothiast/downloads/releases/tag/itooth-data-apps-v0.4.0",
+  "notes": "Import Data: only the sessions you select are imported (click, ⌘-click, ⇧-click, or a date / folder name), nothing is pre-selected after a scan; the sensor dialog only asks when a session's sensor is missing, a placeholder or contradicts its name, pre-filled from the session name and checked against the manufacturing database",
+  "published": "2026-11-04T09:31:05Z",
   "files": {
-    "itooth-apps-macos.zip": "https://github.com/entoothiast/downloads/releases/download/itooth-data-apps-v0.3.0/itooth-apps-macos.zip",
-    "itooth-apps-windows.zip": "https://github.com/entoothiast/downloads/releases/download/itooth-data-apps-v0.3.0/itooth-apps-windows.zip"
+    "itooth-apps-macos.zip": "https://github.com/entoothiast/downloads/releases/download/itooth-data-apps-v0.4.0/itooth-apps-macos.zip",
+    "itooth-apps-windows.zip": "https://github.com/entoothiast/downloads/releases/download/itooth-data-apps-v0.4.0/itooth-apps-windows.zip"
   }
 }
