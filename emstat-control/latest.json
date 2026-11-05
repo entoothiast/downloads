@@ -1,10 +1,10 @@
 {
-  "version": "0.4.3",
-  "url": "https://github.com/entoothiast/downloads/releases/tag/emstat-control-v0.4.3",
-  "notes": "EmStat Control is now part of LacBench, with BathBot and LacTracker. BathBot: Export run re-exports the last run and Export a run folder… any earlier one, so a run recorded without _data can be exported later; aborted or failed runs are exported with what was recorded.",
-  "published": "2026-11-04T09:31:46Z",
+  "version": "0.4.4",
+  "url": "https://github.com/entoothiast/downloads/releases/tag/emstat-control-v0.4.4",
+  "notes": "EmStat Control is now part of LacBench, with BathBot and LacTracker. LacTracker: a countdown timer with stages, as in EmStat Control. BathBot: pick the sensor design and batch as in EmStat Control.",
+  "published": "2026-11-05T13:28:48Z",
   "files": {
-    "LacBench-macos.zip": "https://github.com/entoothiast/downloads/releases/download/emstat-control-v0.4.3/LacBench-macos.zip",
-    "LacBench-windows.zip": "https://github.com/entoothiast/downloads/releases/download/emstat-control-v0.4.3/LacBench-windows.zip"
+    "LacBench-macos.zip": "https://github.com/entoothiast/downloads/releases/download/emstat-control-v0.4.4/LacBench-macos.zip",
+    "LacBench-windows.zip": "https://github.com/entoothiast/downloads/releases/download/emstat-control-v0.4.4/LacBench-windows.zip"
   }
 }
