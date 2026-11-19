@@ -1,10 +1,10 @@
 {
-  "version": "0.4.1",
-  "url": "https://github.com/entoothiast/downloads/releases/tag/itooth-data-apps-v0.4.1",
-  "notes": "Importer: markers roll over midnight",
-  "published": "2026-11-13T08:20:55Z",
+  "version": "0.5.0",
+  "url": "https://github.com/entoothiast/downloads/releases/tag/itooth-data-apps-v0.5.0",
+  "notes": "Manufacturing: USB camera Capture tab, drop pictures onto a batch stage, post-experiment stage, prepared-inbox import",
+  "published": "2026-11-19T13:21:47Z",
   "files": {
-    "itooth-apps-macos.zip": "https://github.com/entoothiast/downloads/releases/download/itooth-data-apps-v0.4.1/itooth-apps-macos.zip",
-    "itooth-apps-windows.zip": "https://github.com/entoothiast/downloads/releases/download/itooth-data-apps-v0.4.1/itooth-apps-windows.zip"
+    "itooth-apps-macos.zip": "https://github.com/entoothiast/downloads/releases/download/itooth-data-apps-v0.5.0/itooth-apps-macos.zip",
+    "itooth-apps-windows.zip": "https://github.com/entoothiast/downloads/releases/download/itooth-data-apps-v0.5.0/itooth-apps-windows.zip"
   }
 }
