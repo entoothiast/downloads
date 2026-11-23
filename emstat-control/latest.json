@@ -1,10 +1,10 @@
 {
-  "version": "0.5.0",
-  "url": "https://github.com/entoothiast/downloads/releases/tag/emstat-control-v0.5.0",
-  "notes": "EmStat Control is now part of LacBench, with BathBot and LacTracker. Square wave voltammetry in EmStat Control, MultiEmStat and BathBot; BathBot CA/CV column programs and a Sessions tab; BathBot steps name their own run files (placeholders such as {sensor}, {technique}, {date}).",
-  "published": "2026-11-23T10:56:39Z",
+  "version": "0.5.1",
+  "url": "https://github.com/entoothiast/downloads/releases/tag/emstat-control-v0.5.1",
+  "notes": "EmStat Control is now part of LacBench, with BathBot and LacTracker. EmStat Multi: Sessions tab to look at past experiments and export them to _data",
+  "published": "2026-11-23T13:33:43Z",
   "files": {
-    "LacBench-macos.zip": "https://github.com/entoothiast/downloads/releases/download/emstat-control-v0.5.0/LacBench-macos.zip",
-    "LacBench-windows.zip": "https://github.com/entoothiast/downloads/releases/download/emstat-control-v0.5.0/LacBench-windows.zip"
+    "LacBench-macos.zip": "https://github.com/entoothiast/downloads/releases/download/emstat-control-v0.5.1/LacBench-macos.zip",
+    "LacBench-windows.zip": "https://github.com/entoothiast/downloads/releases/download/emstat-control-v0.5.1/LacBench-windows.zip"
   }
 }
