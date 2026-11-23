@@ -1,10 +1,10 @@
 {
-  "version": "0.5.1",
-  "url": "https://github.com/entoothiast/downloads/releases/tag/itooth-data-apps-v0.5.1",
-  "notes": "Manufacturing: New batch dialog says why Create is disabled",
-  "published": "2026-11-20T08:51:20Z",
+  "version": "0.6.0",
+  "url": "https://github.com/entoothiast/downloads/releases/tag/itooth-data-apps-v0.6.0",
+  "notes": "Lactate Threshold: power-domain model and batch tool; Database Previewer: set pipeline / stage on many sessions (with confirmation), date filter fix; Importer: rd_qc session names; Manufacturing: QC analysis section",
+  "published": "2026-11-23T11:12:34Z",
   "files": {
-    "itooth-apps-macos.zip": "https://github.com/entoothiast/downloads/releases/download/itooth-data-apps-v0.5.1/itooth-apps-macos.zip",
-    "itooth-apps-windows.zip": "https://github.com/entoothiast/downloads/releases/download/itooth-data-apps-v0.5.1/itooth-apps-windows.zip"
+    "itooth-apps-macos.zip": "https://github.com/entoothiast/downloads/releases/download/itooth-data-apps-v0.6.0/itooth-apps-macos.zip",
+    "itooth-apps-windows.zip": "https://github.com/entoothiast/downloads/releases/download/itooth-data-apps-v0.6.0/itooth-apps-windows.zip"
   }
 }
