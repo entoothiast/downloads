@@ -1,10 +1,10 @@
 {
-  "version": "0.4.4",
-  "url": "https://github.com/entoothiast/downloads/releases/tag/lacbench-v0.4.4",
-  "notes": "LacTracker: a countdown timer with stages, as in EmStat Control. BathBot: pick the sensor design and batch as in EmStat Control.",
-  "published": "2026-11-05T13:28:14Z",
+  "version": "0.5.0",
+  "url": "https://github.com/entoothiast/downloads/releases/tag/lacbench-v0.5.0",
+  "notes": "Square wave voltammetry in EmStat Control, MultiEmStat and BathBot; BathBot CA/CV column programs and a Sessions tab; BathBot steps name their own run files (placeholders such as {sensor}, {technique}, {date}).",
+  "published": "2026-11-23T10:56:29Z",
   "files": {
-    "LacBench-macos.zip": "https://github.com/entoothiast/downloads/releases/download/lacbench-v0.4.4/LacBench-macos.zip",
-    "LacBench-windows.zip": "https://github.com/entoothiast/downloads/releases/download/lacbench-v0.4.4/LacBench-windows.zip"
+    "LacBench-macos.zip": "https://github.com/entoothiast/downloads/releases/download/lacbench-v0.5.0/LacBench-macos.zip",
+    "LacBench-windows.zip": "https://github.com/entoothiast/downloads/releases/download/lacbench-v0.5.0/LacBench-windows.zip"
   }
 }
