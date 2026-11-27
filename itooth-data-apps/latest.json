@@ -1,10 +1,10 @@
 {
-  "version": "0.6.1",
-  "url": "https://github.com/entoothiast/downloads/releases/tag/itooth-data-apps-v0.6.1",
-  "notes": "Manufacturing: new Gallery tab on the batch page (picture grid, resizable previews, large preview, delete pictures)",
-  "published": "2026-11-26T15:37:40Z",
+  "version": "0.6.2",
+  "url": "https://github.com/entoothiast/downloads/releases/tag/itooth-data-apps-v0.6.2",
+  "notes": "Manufacturing: design in-use flag and + Design, lowest free batch number with exists warning, picture times, Gallery Open folder, design fixed when adding sensors. Database Previewer: clock-time x-axis toggle, solid blue marker lines.",
+  "published": "2026-11-27T11:39:38Z",
   "files": {
-    "itooth-apps-macos.zip": "https://github.com/entoothiast/downloads/releases/download/itooth-data-apps-v0.6.1/itooth-apps-macos.zip",
-    "itooth-apps-windows.zip": "https://github.com/entoothiast/downloads/releases/download/itooth-data-apps-v0.6.1/itooth-apps-windows.zip"
+    "itooth-apps-macos.zip": "https://github.com/entoothiast/downloads/releases/download/itooth-data-apps-v0.6.2/itooth-apps-macos.zip",
+    "itooth-apps-windows.zip": "https://github.com/entoothiast/downloads/releases/download/itooth-data-apps-v0.6.2/itooth-apps-windows.zip"
   }
 }
